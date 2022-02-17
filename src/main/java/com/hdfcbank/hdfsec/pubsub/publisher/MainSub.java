@@ -29,7 +29,7 @@ public static void main( String[] args ){
 
 	public void subscribeWithConcurrencyControlExample(String projectId, String subscriptionId) {
 		ProjectSubscriptionName subscriptionName = ProjectSubscriptionName.of(projectId, subscriptionId);
-		Set<String> messageIdSet = new HashSet<>();
+		//Set<String> messageIdSet = new HashSet<>();
 		
 		
 		// Instantiate an asynchronous message receiver.
@@ -37,15 +37,15 @@ public static void main( String[] args ){
 			// Handle incoming message, then ack the received message.
 			String key = message.getMessageId();
 			String content = message.getData().toStringUtf8();
-			if(!messageIdSet.add(key))
-				System.out.println("Duplicate - Id: " + key +"\tData: " + content);
+//			if(!messageIdSet.add(key))
+//				System.out.println("Duplicate - Id: " + key +"\tData: " + content);
 			//redisSevice.publishToRedis(key, content); //REDIS
 			System.out.println("Id: " + key +"\tData: " + content);
-			try {
-				Thread.sleep(3000);
-			} catch (InterruptedException e) {
-				e.printStackTrace();
-			}
+//			try {
+//				Thread.sleep(3000);
+//			} catch (InterruptedException e) {
+//				e.printStackTrace();
+//			}
 			consumer.ack();
 		};
 

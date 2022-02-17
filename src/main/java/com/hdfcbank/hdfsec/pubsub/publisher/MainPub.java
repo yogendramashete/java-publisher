@@ -49,7 +49,7 @@ public class MainPub
 				ByteString data = ByteString.copyFromUtf8(message);
 				PubsubMessage pubsubMessage = PubsubMessage.newBuilder().setData(data).build();
 
-				if (i%20==0) Thread.sleep(1000);
+				//if (i%20==0) Thread.sleep(1000);
 				// Once published, returns a server-assigned message id (unique within the
 				// topic)
 				ApiFuture<String> messageIdFuture = publisher.publish(pubsubMessage);
