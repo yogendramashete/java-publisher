@@ -1,0 +1,27 @@
+Manifest-Version: 1.0
+Built-By: y3875
+Build-Jdk: 17.0.1
+Class-Path: google-cloud-pubsub-1.115.2.jar grpc-api-1.44.0.jar grpc-con
+ text-1.44.0.jar grpc-stub-1.44.0.jar grpc-protobuf-1.44.0.jar grpc-prot
+ obuf-lite-1.44.0.jar api-common-2.1.3.jar javax.annotation-api-1.3.2.ja
+ r protobuf-java-3.19.3.jar proto-google-common-protos-2.7.2.jar google-
+ auth-library-oauth2-http-1.4.0.jar google-auth-library-credentials-1.4.
+ 0.jar google-http-client-gson-1.41.2.jar gson-2.8.9.jar proto-google-cl
+ oud-pubsub-v1-1.97.2.jar proto-google-iam-v1-1.2.1.jar guava-31.0.1-jre
+ .jar failureaccess-1.0.1.jar listenablefuture-9999.0-empty-to-avoid-con
+ flict-with-guava.jar checker-qual-3.21.1.jar j2objc-annotations-1.3.jar
+  gax-2.11.0.jar gax-grpc-2.11.0.jar grpc-alts-1.44.0.jar grpc-grpclb-1.
+ 44.0.jar conscrypt-openjdk-uber-2.5.1.jar grpc-auth-1.44.0.jar grpc-net
+ ty-shaded-1.44.0.jar grpc-xds-1.44.0.jar grpc-services-1.44.0.jar re2j-
+ 1.5.jar bcpkix-jdk15on-1.67.jar bcprov-jdk15on-1.67.jar opencensus-prot
+ o-0.2.0.jar protobuf-java-util-3.19.3.jar threetenbp-1.5.2.jar jsr305-3
+ .0.2.jar opencensus-api-0.31.0.jar grpc-core-1.44.0.jar annotations-4.1
+ .1.4.jar animal-sniffer-annotations-1.20.jar perfmark-api-0.23.0.jar er
+ ror_prone_annotations-2.11.0.jar auto-value-annotations-1.9.jar google-
+ http-client-1.41.2.jar httpclient-4.5.13.jar commons-logging-1.2.jar co
+ mmons-codec-1.15.jar httpcore-4.4.15.jar opencensus-contrib-http-util-0
+ .31.0.jar slf4j-api-1.7.33.jar slf4j-log4j12-1.7.33.jar log4j-1.2.17.ja
+ r
+Main-Class: com.hdfcbank.hdfsec.pubsub.publisher.App
+Created-By: Maven Integration for Eclipse
+
